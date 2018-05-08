@@ -2,11 +2,11 @@
 My personal LaTeX-Template based on the [IEEE conference.](https://www.ieee.org/conferences/publishing/templates.html)
 
 ## Add more Sections
-- Create a new file with the name of the section
+- Create a new file with the name of the section (FILENAME)
 - In main.tex write
 ```
 \begin{abstract}
-\input{sections/abstract.tex}
+\input{sections/FILENAME.tex}
 \end{abstract}
 ```
 
